@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    max-width: 100%;
+}
+
+.invisible {
+    display: none;
+}
+
+.white {
+    color: white;
+}
+.orange{
+    color: #FF803A;
+}
+
+.green{
+    color: #BDD436;
+}
+
+.darkgreen {
+    color: #A0B333;
+}
+.oswald {
+    font-family: oswald;
+}
+.bigwrapdiv { 
+    background-image: url(./wideopen-icons/img/wot-masthead-dark.jpg);
+    background-color: white;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.backimg {
+    height: 20%;
+}
+
+header {
+    
+    height: 10vh;
+    width: 100vw;
+    
+}
+
+.mainlogo {
+    height: 5%;
+    width: 10%;
+    padding: 3vh 3vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-text {
+    display: flex;
+    font-size: 22px;
+    padding: 4vh 5vw 0vh 0vw;
+}
+
+.headerbigtext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    position: relative;
+}
+
+.yourdigital {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 25%;
+    position: absolute;
+    max-width: 20%;
+}
+
+.workshop {
+    width: 100%;
+    font-size: 150px;
+    margin-left: 26%;
+    max-width: 50%;
+}
+
+.buildingbusiness {
+    display: flex;
+    font-size: 20px;
+    margin: 0% 40%;
+    width: 50vw;
+    white-space: nowrap;
+    max-width: 50%;
+}
+
+.rowthing {
+    flex-direction: row;
+    display:flex;
+}
+
+.weirdwhitebox {
+    background-color: white;
+    height: 1vh;
+    width: 10vw;
+    display: flex;
+    position: relative;
+    align-content: center;
+}
+
+.wwb1 {
+    margin: 0vh 10vw 0vh 20vw;
+}
+
+.wwb2 {
+    margin: 0vh 20vw 0vh 10vw;
+}
+
+.learnmorebutton {
+    justify-content: center;
+    background-color: #8D9C37;
+    border-radius: 100px;
+    border: none;
+    height: 5vh;
+    width: 70%;
+    margin: 1% 15% 50% 15%;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.learnmorebutton:hover {
+    background-color: #C8E23A;
+}
+
+.graysection {
+    background-color: #F0F0F0;
+}
+
+.missionstatement {
+    color: #6B797D;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 5% 25% 5% 25%;
+    text-align: center;
+}
+
+.howitworks {
+    font-size: 42px;
+    color: #6A787C;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pencilandwrench {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-image: url(./wideopen-icons/img/sprite_home.png);
+    background-position: 3% 45%;
+}
+
+.lightbulb {
+    height: 150px;
+    width: 130px;
+    margin: 0 auto;
+    background-image: url(./wideopen-icons/img/sprite_home.png);
+    background-position: 80% 45%;
+    display: flex;
+}
+
+.borderright {
+    border-right: 1px black solid;
+    height: 40%;
+}
+
+.flexyrow {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.flexycolumn {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.rowtext {
+    margin: 5% 15% 5%;
+    font-family: sans-serif;   
+    font-size: 18px;
+    color: #6B797D;
+    height: 150px;
+}
+
+.arrow {
+    height: 140px;
+    width: 92px;
+    margin: 0 auto;
+    background-image: url(./wideopen-icons/img/sprite_home.png);
+    background-position: 50% 45%;
+    display: flex;
+}
+
+.powericon {
+    height: 140px;
+    width: 120px;
+    margin: 0 auto;
+    background-image: url(./wideopen-icons/img/sprite_home.png);
+    background-position: 26% 45%;
+    display: flex;
+}
+
+.link {
+    color: #BDD436;
+    text-decoration: none;
+}
+
+.learnlinks {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0% 20%;
+}
+
+.smallgrayarrow {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    background-image: url(./wideopen-icons/img/sprite_home.png);
+    background-position: 5% 110%;
+    display: flex;
+}
+
+@media (max-width: 1000px){
+
+/* wrap the row of shit 
+logo snaps in, hamburger menu appears
+ALSO: LOGO NEVER CHANGES SIZES*/
+.header-text {
+    display: none;
+}
+
+}
