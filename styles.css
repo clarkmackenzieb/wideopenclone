@@ -69,32 +69,29 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
-    position: relative;
+    margin: 0% 30% 0% 30%;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
 }
 
 .yourdigital {
     display: flex;
-    width: 100%;
     font-size: 20px;
-    margin-left: 25%;
-    position: absolute;
-    max-width: 20%;
+    justify-content: flex-start;
 }
 
 .workshop {
-    width: 100%;
+    display: flex;
     font-size: 150px;
-    margin-left: 26%;
-    max-width: 50%;
+    justify-content: center;
 }
 
 .buildingbusiness {
     display: flex;
-    font-size: 20px;
-    margin: 0% 40%;
-    width: 50vw;
+    font-size: 24px;
     white-space: nowrap;
-    max-width: 50%;
+    justify-content: center;
 }
 
 .rowthing {
@@ -189,7 +186,7 @@ header {
 .flexycolumn {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 300px;
 }
 
 .rowtext {
@@ -201,7 +198,7 @@ header {
 }
 
 .arrow {
-    height: 140px;
+    height: 150px;
     width: 92px;
     margin: 0 auto;
     background-image: url(./wideopen-icons/img/sprite_home.png);
@@ -246,6 +243,18 @@ logo snaps in, hamburger menu appears
 ALSO: LOGO NEVER CHANGES SIZES*/
 .header-text {
     display: none;
+}
+
+.flexyrow {
+    flex-direction: column;
+}
+
+.workshop {
+    font-size: 100px;
+}
+
+.buildingbusiness {
+    
 }
 
 }
